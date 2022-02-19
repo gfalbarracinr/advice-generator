@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+:root{
+  --cyan: hsl(193, 38%, 86%);
+  --green: hsl(150, 100%, 66%);
+  --blue: hsl(217, 19%, 38%);
+  --dark-blue: hsl(217, 19%, 24%);
+  --light-blue: hsl(217, 19%, 30%);
+}
+body{
+  background-color:var(--dark-blue);
+  height: 100%;
+}
+
+.advice-container{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 0 auto;
+  background-color: var(--light-blue);
+  margin-top: 50px;
+  height: 200px;
+  border-radius: 10px;
+  
+}
+.image-dice{
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 30%;
+}
+.image{
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  text-align: center;
+  bottom: -35px;
+  padding: 0;
+  background-color: var(--green);
+  border-radius: 50%;
+}
+.text-container{
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.title{
+  color: var(--green);
+  font-size: 8px;
+  line-height: 1px;
+  letter-spacing: 4px;
+}
+.advice{
+  color: var(--cyan);
+  font-size: 20px;
+}
+.attribution{
+  display: block;
+  position: fixed;
+  bottom: 20px;
+}
